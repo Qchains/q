@@ -721,7 +721,7 @@ var reject = function (reason) {
 };
 ```
 
-There remains one safty issue, though.  Given that any object that implements
+There remains one safety issue, though.  Given that any object that implements
 "then" is treated as a promise, anyone who calls "then" directly is at risk
 of surprise.
 
